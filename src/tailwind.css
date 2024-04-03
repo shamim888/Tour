@@ -554,9 +554,18 @@ video {
   --tw-contain-style:  ;
 }
 
+.text-teal-500 {
+  --tw-text-opacity: 1;
+  color: rgb(20 184 166 / var(--tw-text-opacity));
+}
+
 .row {
   margin-left: -1rem;
   margin-right: -1rem;
   display: flex;
   flex-wrap: wrap;
+}
+
+.max-width{
+  max-width: 1140px;
 }
