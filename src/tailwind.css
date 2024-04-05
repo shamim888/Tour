@@ -607,6 +607,7 @@ header nav a {
 header nav a::before {
   content: "";
   position: absolute;
+  left: 0px;
   bottom: -5px;
   width: 100%;
   height: 2.8px;
@@ -624,10 +625,6 @@ header nav a:hover::before,
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
-}
-
-.block {
-  display: block;
 }
 
 .flex {
@@ -654,6 +651,11 @@ header nav a:hover::before,
   gap: 1rem;
 }
 
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -662,11 +664,6 @@ header nav a:hover::before,
 .py-10 {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
-}
-
-.px-3 {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
 }
 
 .py-2 {
