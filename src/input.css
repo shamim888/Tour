@@ -41,6 +41,13 @@
 
     header nav a:hover::before,
     header nav .active::before {
-        transform: scaleX(.7);
+        transform: scaleX(.5);
+    }
+
+    home {
+        background-image: url('../img/hiking_bg.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
     }
 }
