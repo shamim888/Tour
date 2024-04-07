@@ -44,8 +44,9 @@
         transform: scaleX(.5);
     }
 
-    home {
-        background-image: url('../img/hiking_bg.png');
+    .home {
+        min-height: 100vh;
+        background-image: url("../img/tour_bg.png");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;

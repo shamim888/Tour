@@ -622,11 +622,40 @@ header nav a:hover::before,
   transform: scaleX(.5);
 }
 
-home {
-  background-image: url('../img/hiking_bg.png');
+.home {
+  min-height: 100vh;
+  background-image: url("../img/tour_bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.sticky {
+  position: sticky;
+}
+
+.top-10 {
+  top: 2.5rem;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.-top-10 {
+  top: -2.5rem;
+}
+
+.top-6 {
+  top: 1.5rem;
+}
+
+.-top-6 {
+  top: -1.5rem;
+}
+
+.z-50 {
+  z-index: 50;
 }
 
 .mx-auto {
