@@ -51,4 +51,15 @@
         background-repeat: no-repeat;
         background-position: center;
     }
+
+    .btn {
+        font-size: 20px;
+        padding: 12px 55px;
+        border-radius: 40px;
+        border: none;
+        color: white;
+        cursor: pointer;
+        transition: .2s;
+        background: linear-gradient(to right, #2597a1, #1bae92);
+    }
 }
