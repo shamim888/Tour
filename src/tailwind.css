@@ -641,6 +641,10 @@ header nav a:hover::before,
   background: linear-gradient(to right, #2597a1, #1bae92);
 }
 
+.btn:hover{
+  box-shadow: 0 0 20px #2597a1;
+}
+
 .fixed {
   position: fixed;
 }
